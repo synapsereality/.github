@@ -1,0 +1,24 @@
+name: Feature request
+description: A change to what a tool checks, reports or accepts.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you tried to do and where the tool got in the way.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you'd like
+      description: The flag, output or behaviour you have in mind. A sample command helps.
+    validations:
+      required: true
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: Pull request
+      options:
+        - label: I'd like to send the pull request myself.

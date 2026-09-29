@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://synapsereality.io/open-source/
+    about: Install commands, sample output and what each tool can't check.
+  - name: Security problem
+    url: https://github.com/synapsereality/.github/blob/main/SECURITY.md
+    about: Report it privately, never in a public issue.

@@ -1,0 +1,44 @@
+name: Bug report
+description: Something gives a wrong result, crashes or doesn't match the docs.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Security problems go to ben@synapsereality.io, not here. See SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `--version`, or the commit or Action tag you use.
+      placeholder: one-hop 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: What you ran
+      description: The exact command or workflow step. Remove keys and passwords.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What happened
+      description: The output, or the part of it that is wrong.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, and the Python or Node.js version.
+      placeholder: Ubuntu 24.04, Python 3.12
