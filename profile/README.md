@@ -19,6 +19,13 @@ We also built [Live Tennis API](https://synapsereality.io/work/live-tennis-api/)
 examples and integrations are in their own organisation,
 [github.com/livetennisapi](https://github.com/livetennisapi).
 
+## Fax for Agents
+
+We built [Fax for Agents](https://faxforagents.com/) as well. It is a fax API, a hosted MCP
+server and SDKs that let AI agents send and receive faxes, with a receipt for every job.
+The SDKs, the MCP server and the examples live in
+[github.com/faxforagents](https://github.com/faxforagents), and the sandbox is free.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on each repo. Read
