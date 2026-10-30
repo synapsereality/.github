@@ -25,6 +25,7 @@ We built [Fax for Agents](https://faxforagents.com/) as well. It is a fax API, a
 server and SDKs that let AI agents send and receive faxes, with a receipt for every job.
 The SDKs, the MCP server and the examples live in
 [github.com/faxforagents](https://github.com/faxforagents), and the sandbox is free.
+How we built it is on [our site](https://synapsereality.io/work/fax-for-agents/).
 
 ## Contributing
 
